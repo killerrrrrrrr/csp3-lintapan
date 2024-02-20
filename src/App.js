@@ -35,6 +35,7 @@ function App() {
     localStorage.clear()
   }
 
+  
   useEffect(() => {
 
     fetch(`${process.env.REACT_APP_API_URL}/users/userDetails`, {
